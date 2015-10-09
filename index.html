@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Agroeasy</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A Agroeasy oferece os melhores produtos e serviços para o agronegócio usando tecnologia">
+
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/nivo-slider.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header" id="menu">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="logo-wrapper">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="img/logo-agroeasy.png" alt="Logo Agroeasy">
+                            </a>
+                        </div>  
+                    </div>
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="#">Produtos</a></li>
+                            <li><a href="#">Benefícios</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        </nav>
+    </header>
+
+    <div id="slider" class="nivoSlider">
+        <img src="img/slide/slide-01.jpg" alt="Slider 01"/>
+        <img src="img/slide/slide-02.jpg" alt="Slider 02"/>
+    </div>
+    
+    <section id="about">
+        <div class="container about">
+        <div class="text-center">
+            <h2 class="about-title text-center section-title">Sobre Nós</h2>
+        </div>
+        <div class="row fonte-branca">
+            <div class="col-md-6">
+                <img src="img/cliente-contente.png" alt="Produtor rural contente com serviços Agroeasy">
+            </div>
+            <div class="col-md-6">
+                <h3 class="colum-title">A Agroeasy</h3 class="colum-title">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore doloribus ipsa quis alias maxime placeat minima, tempore reprehenderit est? Deserunt iste, libero, eos quas nihil aut? Quia alias, nihil debitis ducimus esse amet quas maxime quod eius. Recusandae, dignissimos sed, numquam, dolores enim tempora rem nisi sequi eos explicabo deleniti!</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae voluptate molestiae magnam maxime, laudantium explicabo saepe porro in commodi quo eos quaerat fuga officia, voluptatem! Quod ut in perferendis error.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eius labore aliquid laborum molestias consequatur iusto rem laboriosam quod dolore repellendus accusamus, sapiente pariatur ipsum aspernatur ducimus. Quidem sit, amet consequatur commodi doloribus illo praesentium numquam excepturi qui. Molestias inventore accusantium, nulla, quae numquam vero!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container services">
+        <div class="text-center">
+            <h2 class="about-title text-center section-title">Conheça nossos serviços</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <i class="fa fa-bar-chart icone"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dignissimos doloribus ipsa, veniam reiciendis hic sed eveniet est ex quia?</p>
+            </div>            
+
+            <div class="col-md-4">
+                <i class="fa fa-bar-chart icone"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dignissimos doloribus ipsa, veniam reiciendis hic sed eveniet est ex quia?</p>
+            </div>            
+
+            <div class="col-md-4">
+                <i class="fa fa-bar-chart icone"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dignissimos doloribus ipsa, veniam reiciendis hic sed eveniet est ex quia?</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <i class="fa fa-bar-chart icone"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dignissimos doloribus ipsa, veniam reiciendis hic sed eveniet est ex quia?</p>
+            </div>            
+
+            <div class="col-md-4">
+                <i class="fa fa-bar-chart icone"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dignissimos doloribus ipsa, veniam reiciendis hic sed eveniet est ex quia?</p>
+            </div>            
+
+            <div class="col-md-4">
+                <i class="fa fa-bar-chart icone"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dignissimos doloribus ipsa, veniam reiciendis hic sed eveniet est ex quia?</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   
+    <script src="js/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider({
+            effect: 'random',                 // Specify sets like: 'fold,fade,sliceDown'
+            slices: 15,                      // For slice animations
+            boxCols: 8,                     // For box animations
+            boxRows: 4,                    // For box animations
+            animSpeed: 500,                 // Slide transition speed
+            pauseTime: 3000,                 // How long each slide will show
+            startSlide: 0,                     // Set starting Slide (0 index)
+            directionNav: false,             // Next & Prev navigation
+            controlNav: false,                 // 1,2,3... navigation
+            controlNavThumbs: false,         // Use thumbnails for Control Nav
+            pauseOnHover: true,             // Stop animation while hovering
+            manualAdvance: false,             // Force manual transitions
+            prevText: 'Prev',                 // Prev directionNav text
+            nextText: 'Next',                 // Next directionNav text
+            randomStart: false,             // Start on a random slide
+            beforeChange: function(){},     // Triggers before a slide transition
+            afterChange: function(){},         // Triggers after a slide transition
+            slideshowEnd: function(){},     // Triggers after all slides have been shown
+            lastSlide: function(){},         // Triggers when last slide is shown
+            afterLoad: function(){}         // Triggers when slider has loaded
+        });     
+    });
+    </script>
+</body>
+</html>
