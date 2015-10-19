@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body {
 	background-color: #e2e2e2;
+	font-family: 'Raleway', sans-serif;
 }
 
 .navbar {
@@ -31,7 +33,6 @@ body {
 /* ####### Services Start */
 #services {
 	background-color: #181A1C;
-	position:relative;
 }
 
 .container.services {
@@ -52,13 +53,14 @@ body {
 
 /* ####### About Start */
 #about {
-	background-image: url('../img/background/grama.jpg');
-	background-attachment: fixed;
+	background-image: url('../img/background/trigoteste2.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+    background-size: cover;
 }
 
 .container.about {
 	padding-top: 120px;
-	padding-bottom: 72px;
 }
  
 .about-title {
@@ -89,4 +91,62 @@ body {
 	padding-left: 30px;
 	float: left;
     padding-right: 20px;
+}
+
+footer {
+	background: #181A1C;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+/* start social icon */
+.social-icon
+{
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.social-icon li
+{
+  display: inline-block;
+  list-style: none;
+}
+.social-icon li a
+{
+  color: #666;
+  font-size: 13px;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.social-icon li a:hover
+{
+  background: #ffa400;
+  color: #ffffff;
+}
+/* end social icon */
+
+hr {
+	border: 1px solid #ffa400;
+  	width: 100px;
+}
+
+.fonte-ribbon {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+.endereco p{
+	margin-bottom: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.quadro {
+	background-color: gray;
 }
