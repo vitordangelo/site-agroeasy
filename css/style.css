@@ -208,3 +208,44 @@ h3 {
 .paddin-top {
   padding-top: 90px;
 }
+
+@media screen and (max-width:480px) { 
+  footer {
+    padding-bottom: 90px;
+  }
+
+}
+
+#mkt {
+  background-image: url('../img/background/mkt.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.form-input {
+  height: 60px;
+}
+
+.form-mkt {
+  text-align: center;
+  max-width: 550px;
+  margin: 0 auto 20px;
+  height: 60px;
+  margin-top: 13px;
+  position: relative;
+}
+
+.mkt-bt {
+  width: 90px;
+  height: 60px;
+  border-left: 1px solid #fff;
+  position: absolute;
+  top: 0;
+  font-size: 25px;
+  border-radius: 0px !important;
+  right: 0;
+}
+
+.mkt-bt:hover {
+  background-color: #ffe400;
+}
