@@ -244,8 +244,40 @@ h3 {
   font-size: 25px;
   border-radius: 0px !important;
   right: 0;
+  background-color: #ffe400;
 }
 
 .mkt-bt:hover {
   background-color: #ffe400;
+}
+
+.form-control:focus {
+  border-color: #DDDDDD;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(221,221,221);
+}
+
+.textarea-contato {
+  height: 270px !important;
+}
+
+.form-input {
+  margin-bottom: 10px;
+}
+
+#mkt h2 {
+  color: #fff;
+  padding-bottom: 30px;
+  margin-top: 0;
+}
+
+#email-mkt h2 {
+  margin-top: 50px;
+}
+
+#email-mkt {
+  margin-bottom: 50px;
+}
+
+#services h2 {
+  margin-top: 90px;
 }
