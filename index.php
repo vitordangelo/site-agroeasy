@@ -189,7 +189,8 @@
                 </div>
 
                 <div class="item">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nostrum sit quasi debitis repellat laboriosam nisi perferendis, culpa nihil, dolore, voluptatem temporibus? Illum, voluptatem. Porro eius molestiae reiciendis ea et.</p>
+                    <p>A Imagem Comunicação e Marketing é uma agência focada em Qualidade e Resultado, com larga experiência no planejamento e implementação de Programas de construção, consolidação e reposicionamento da Marca e Imagem das Empresas em geral.
+                    O diferencial da agência é oferecer aos clientes serviços de qualidade em um único lugar, ou seja, soluções integradas de Comunicação desde assessoria de imprensa a desenvolvimento de peças publicitárias, produção de conteúdo e criação de site.</p>
                     <img src="img/parceiros/imagem-comunicacao.png" alt="Imagem e Comunicação">
                 </div>
             </div>      
@@ -203,13 +204,13 @@
             </div>
 
             <div class="row">
-                <form action="">
+                <form name="contact-form" method="post" action="formEmail.php">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input class="form-control form-input" type="email" name="" placeholder="Nome" required="">   
-                            <input class="form-control form-input" type="email" name="" placeholder="Escreva seu email" required="">
-                            <input class="form-control form-input" type="email" name="" placeholder="Telefone" required="">
-                            <input class="form-control form-input" type="email" name="" placeholder="Assunto" required="">
+                            <input class="form-control form-input" type="text" name="name" placeholder="Nome" required="">   
+                            <input class="form-control form-input" type="email" name="email" placeholder="Escreva seu email" required="">
+                            <input class="form-control form-input" type="text" name="telefone" placeholder="Telefone" required="">
+                            <input class="form-control form-input" type="text" name="subject" placeholder="Assunto" required="">
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -217,6 +218,8 @@
                             <textarea name="message" class="form-control textarea-contato" placeholder="Escreva sua mensagem"></textarea>
                         </div>
                     </div>
+                    <button type="submit" class="btn mail-bt"> <i class="fa fa-paper-plane "></i> </button>
+
                 </form>
             </div>  
         </div>
@@ -230,9 +233,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <form class="form-mkt" action="#" method="POST" role="form">
+                    <form class="form-mkt" action="formMkt.php" method="POST" role="form">
                         <div class="form-group">
-                            <input class="form-control form-input" type="email" name="" placeholder="Escreva seu email e clique no envelope para receber novidades" required="">
+                            <input class="form-control form-input" type="email" name="emailmkt" placeholder="Escreva seu email e clique no envelope para receber novidades" required="">
                         </div>
                         <button type="submit" class="btn mkt-bt"> <i class="fa fa-envelope"></i> </button>
                     </form> 
