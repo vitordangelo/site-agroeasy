@@ -33,7 +33,7 @@
                     <div class="collapse navbar-collapse" id="main-menu">
                         <ul class="nav navbar-nav navbar-right">
                             <li><a data-scroll data-options='{ "easing": "easeInOutQuint" }' href="#">Home</a></li>
-                            <li><a data-scroll data-options='{ "easing": "easeInOutQuint" }' href="#services">Serviço</a></li>
+                            <li><a data-scroll data-options='{ "easing": "easeInOutQuint" }' href="#services">Serviços</a></li>
                             <li><a data-scroll data-options='{ "easing": "easeInOutQuint" }' href="#parceiros">Parceiros</a></li>
                             <li><a data-scroll data-options='{ "easing": "easeInOutQuint" }' href="#mkt">Contato</a></li>
                         </ul>
