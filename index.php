@@ -179,7 +179,7 @@
                 </div>
 
                 <div class="item">
-                    <p>A Fundação Procafe desenvolve pesquisas científicas voltadas para os estudos de técnicas modernas de manejo da lavoura cafeeira, desenvolvimento de novas variedades de café mais estáveis, geneticamente com fatores de resistência a patógenos, o que requer menor uso de defensivos químicos, além dos testes (ensaios) de eficiência agronômica de produtos e equipamentos agrícolas.</p>
+                    <p>A Fundação Procafé desenvolve pesquisas científicas voltadas para os estudos de técnicas modernas de manejo da lavoura cafeeira, desenvolvimento de novas variedades de café mais estáveis, geneticamente com fatores de resistência a patógenos, o que requer menor uso de defensivos químicos, além dos testes (ensaios) de eficiência agronômica de produtos e equipamentos agrícolas.</p>
                     <img src="img/parceiros/procafe.png" alt="Procafe">
                 </div>
 
