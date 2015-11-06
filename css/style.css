@@ -187,6 +187,7 @@ h3 {
 #parceiros p {
   color: #fff;
   padding-bottom: 20px;
+  margin: 0 160px;
 }
 
 #parceiros h2 {
@@ -197,7 +198,7 @@ h3 {
 .board-parcerios {
   /*width: 945px;*/
   text-align: center;
-  background: rgba(34, 34, 34, 0.8);
+  /*background: rgba(34, 34, 34, 0.8);*/
 }
 
 .padding-large {

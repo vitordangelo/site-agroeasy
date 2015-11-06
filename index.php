@@ -73,7 +73,7 @@
 
             <div class="">
                 <h2 class="text-center">Serviços e Soluções</h2>
-                <p class="text-center">Conheça sobre nossos serviços</p>
+                <p class="text-center">Conheça sobre os nossos serviços.</p>
             </div>
 
             <div class="row">
@@ -97,7 +97,7 @@
                             </div>
                             <div class="media-right">
                                 <h3 class="titulo-servicos">Lucratividade</h3>
-                                <p>Com a facilidade de operação do sistema, a possibilidade de se ter informações precisas, em tempo real.</p>
+                                <p>Devido à facilidade de operação do sistema, a possibilidade de se ter informações precisas, em tempo real.</p>
                             </div>
                         </div>
                     </div>
@@ -109,7 +109,7 @@
                             </div>
                             <div class="media-right">
                                 <h3 class="titulo-servicos">Racionamento</h3>
-                                <p>Racionamento de água nos sistemas de irrigação, ative as bombas apenas quando nescessário.</p>
+                                <p>Racionamento de água nos sistemas de irrigação, ativa as bombas apenas quando necessário.</p>
                             </div>
                         </div>
                     </div>
@@ -144,8 +144,8 @@
                                 <i class="icones-servicos-posicao icones-servicos fa fa-truck"></i>
                             </div>
                             <div class="media-right">
-                                <h3 class="titulo-servicos">Logistica</h3>
-                                <p>A partir de dados de previsão de safra o agricultor terá mais facilidade em elaborar sua estratégia de logistica.</p>
+                                <h3 class="titulo-servicos">Logística</h3>
+                                <p>A partir de dados de previsão de safra, o agricultor terá mais facilidade em elaborar sua estratégia de logística.</p>
                             </div>
                         </div>
                     </div>
@@ -235,7 +235,7 @@
                 <div class="col-md-12">
                     <form class="form-mkt" action="formMkt.php" method="POST" role="form">
                         <div class="form-group">
-                            <input class="form-control form-input" type="email" name="emailmkt" placeholder="Escreva seu email e clique no envelope para receber novidades" required="">
+                            <input class="form-control form-input" type="email" name="emailmkt" placeholder="Escreva seu email e clique para receber novidades" required="">
                         </div>
                         <button type="submit" class="btn mkt-bt"> <i class="fa fa-envelope"></i> </button>
                     </form> 
