@@ -164,34 +164,34 @@
 
             <div class="owl owl-carousel owl-theme">
                 <div class="item">
-                    <p>A MTO Consultoria é uma empresa que atua no mercado desde 2008 promovendo soluções para melhoria da qualidade e produtividade dos processos internos das indústrias e organizações de agronegócios.</p>
                     <img src="img/parceiros/mto.png" alt="MTO Consultória">
+                    <!-- <p>A MTO Consultoria é uma empresa que atua no mercado desde 2008 promovendo soluções para melhoria da qualidade e produtividade dos processos internos das indústrias e organizações de agronegócios.</p> -->
                 </div>
 
                 <div class="item">
-                    <p>A Incubadora de Empresas e Projetos do Inatel foi a vencedora do prêmio nacional de empreendedorismo inovador da Anprotec na categoria "Melhor Incubadora de Empresas Orientada para Desenvolvimento Local e Setorial."</p>
                     <img src="img/parceiros/inatel.png" alt="Incubadora do Inatel">
+                    <!-- <p>A Incubadora de Empresas e Projetos do Inatel foi a vencedora do prêmio nacional de empreendedorismo inovador da Anprotec na categoria "Melhor Incubadora de Empresas Orientada para Desenvolvimento Local e Setorial."</p> -->
                 </div>
 
                 <div class="item">
-                    <p>A Locaweb apoia instituições que contribuem de forma séria e efetiva, não apenas para reduzir os problemas sociais, mas também para o desenvolvimento econômico sustentável, conduzindo seus negócios de forma que a empresa se transforme em um agente de evolução social.</p>
                     <img src="img/parceiros/locaweb.png" alt="Locaweb">
+                    <!-- <p>A Locaweb apoia instituições que contribuem de forma séria e efetiva, não apenas para reduzir os problemas sociais, mas também para o desenvolvimento econômico sustentável, conduzindo seus negócios de forma que a empresa se transforme em um agente de evolução social.</p> -->
                 </div>
 
                 <div class="item">
-                    <p>A Fundação Procafé desenvolve pesquisas científicas voltadas para os estudos de técnicas modernas de manejo da lavoura cafeeira, desenvolvimento de novas variedades de café mais estáveis, geneticamente com fatores de resistência a patógenos, o que requer menor uso de defensivos químicos, além dos testes (ensaios) de eficiência agronômica de produtos e equipamentos agrícolas.</p>
                     <img src="img/parceiros/procafe.png" alt="Procafe">
+                    <!-- <p>A Fundação Procafé desenvolve pesquisas científicas voltadas para os estudos de técnicas modernas de manejo da lavoura cafeeira, desenvolvimento de novas variedades de café mais estáveis, geneticamente com fatores de resistência a patógenos, o que requer menor uso de defensivos químicos, além dos testes (ensaios) de eficiência agronômica de produtos e equipamentos agrícolas.</p> -->
                 </div>
 
                 <div class="item">
-                    <p>A Terra Júnior – Consultoria Agropecuária é uma empresa de consultoria agropecuária. Fundada no ano de 2000, é formada por alunos dos cursos de Administração, Agronomia, Engenharia Agrícola, Engenharia Florestal, Veterinária e Zootecnia da Universidade Federal de Lavras.</p>
                     <img src="img/parceiros/terrajr.png" alt="Terra Jr">
+                    <!-- <p>A Terra Júnior – Consultoria Agropecuária é uma empresa de consultoria agropecuária. Fundada no ano de 2000, é formada por alunos dos cursos de Administração, Agronomia, Engenharia Agrícola, Engenharia Florestal, Veterinária e Zootecnia da Universidade Federal de Lavras.</p> -->
                 </div>
 
                 <div class="item">
-                    <p>A Imagem Comunicação e Marketing é uma agência focada em Qualidade e Resultado, com larga experiência no planejamento e implementação de Programas de construção, consolidação e reposicionamento da Marca e Imagem das Empresas em geral.
-                    O diferencial da agência é oferecer aos clientes serviços de qualidade em um único lugar, ou seja, soluções integradas de Comunicação desde assessoria de imprensa a desenvolvimento de peças publicitárias, produção de conteúdo e criação de site.</p>
                     <img src="img/parceiros/imagem-comunicacao.png" alt="Imagem e Comunicação">
+                    <!-- <p>A Imagem Comunicação e Marketing é uma agência focada em Qualidade e Resultado, com larga experiência no planejamento e implementação de Programas de construção, consolidação e reposicionamento da Marca e Imagem das Empresas em geral.
+                    O diferencial da agência é oferecer aos clientes serviços de qualidade em um único lugar, ou seja, soluções integradas de Comunicação desde assessoria de imprensa a desenvolvimento de peças publicitárias, produção de conteúdo e criação de site.</p> -->
                 </div>
             </div>      
         </div>
@@ -278,7 +278,7 @@
     <script>
         $(document).ready(function() {
         $(".owl").owlCarousel({
-            autoPlay : 50000000,
+            autoPlay : 5000,
             navigation : false, // Show next and prev buttons
             slideSpeed : 300,
             paginationSpeed : 400,
