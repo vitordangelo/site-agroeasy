@@ -278,32 +278,13 @@
     <script>
         $(document).ready(function() {
         $(".owl").owlCarousel({
-            autoPlay : 5000,
+            autoPlay : 50000000,
             navigation : false, // Show next and prev buttons
             slideSpeed : 300,
             paginationSpeed : 400,
-            singleItem:true
-
-            // "singleItem:true" is a shortcut for:
-            // items : 1, 
-            // itemsDesktop : false,
-            // itemsDesktopSmall : false,
-            // itemsTablet: false,
-            // itemsMobile : false
-     
-        });
-     
-        });
-    </script>
-
-    <script>
-        $(document).ready(function() {
-        $(".parca").owlCarousel({
-            autoPlay : 5000,
-            navigation : false, // Show next and prev buttons
-            slideSpeed : 300,
-            paginationSpeed : 400,
-            singleItem:true
+            singleItem:true,
+            items: 1,
+            stopOnHover: true
 
             // "singleItem:true" is a shortcut for:
             // items : 1, 
