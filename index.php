@@ -25,7 +25,7 @@
                             <i class="fa fa-bars"></i>
                         </button>
                         <div class="logo-wrapper">
-                            <a class="navbar-brand" href="index.html">
+                            <a class="navbar-brand" href="index.php">
                                 <img src="img/logo-agroeasy.png" alt="Logo Agroeasy">
                             </a>
                         </div>  
@@ -255,8 +255,8 @@
                     </div>
                     <hr>
                     <ul class="social-icon">
-                        <li><a href="#" class="fa fa-facebook"></a></li>
-                        <li><a href="#" class="fa fa-linkedin"></a></li>
+                        <li><a href="https://www.facebook.com/agroeasy.agr.br" target="_blank" class="fa fa-facebook"></a></li>
+                        <li><a href="https://www.linkedin.com/company/agroeasy---solu%C3%A7%C3%B5es-para-agroneg%C3%B3cio" target="_blank" class="fa fa-linkedin"></a></li>
                         <li><a href="#" class="fa fa-google-plus"></a></li>
                         <li><a href="#" class="fa fa-twitter"></a></li>
                     </ul>
